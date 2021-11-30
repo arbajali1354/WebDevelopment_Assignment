@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+
+        .container {
+            display: flex;
+            background: radial-gradient(#fff, #ffd6d6);
+            height: 100vh;
+        }
+
+        .box {
+            display: flex;
+            width: 30vw;
+            height: 65vh;
+            border: 2px solid black;
+            margin: 0px auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .sec1 {
+            padding: 10px 15px;
+        }
+
+        .sec1 h2 {
+            text-align: center;
+            color:#ff523b;
+            font-size: 24px;
+            border-bottom: 2px solid #ff523b;
+        }
+
+        .sec1 p {
+            margin: 10px 0;
+            /* line-height: 17px; */
+            font-size: 18px;
+        }
+
+        .btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color:#ff523b;
+            height: 50px;
+            border-radius: 25px;
+            margin-top: 25px;
+            transition: .6s;
+            
+        }
+        .btn:hover{
+            background-color: #563434;
+        }
+        .btn a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="sec1">
+                <h2>Wi-Fi</h2>
+                <p>Wi-Fi is the wireless technology used to connect computers, tablets, smartphones and other devices to
+                    the internet. Wi-Fi is the radio signal sent from a wireless router to a nearby device, which
+                    translates the signal into data you can see and use.</p>
+                <div class="btn">
+                    <a href="https://en.wikipedia.org/wiki/Wi-Fi">Read more &#8594;</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="sec1">
+                <h2>LAN</h2>
+                <p>A local area network is a computer network that interconnects computers within a limited area such as
+                    a residence, school, laboratory, university campus or office building.Ethernet and Wi-Fi are the two
+                    most common technologies in use for local area networks.</p>
+                <div class="btn">
+                    <a href="https://en.wikipedia.org/wiki/Local_area_network">Read more &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
