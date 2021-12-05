@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+    <style>
+        html{
+            font-family: 'Outfit', sans-serif;
+        }
+        .box{
+            padding: 23px 43px;
+            margin:12px;
+            text-align: center;
+            font-size: 40px;
+
+        }
+        body{
+            background:radial-gradient(white,yellow)
+
+        }
+        header h1{
+            color: #EE0C0C;
+            font-size: 45px;
+            text-align: center;
+            font-weight: 900;
+            font-size: 50px;
+            text-shadow:0px 0px 2px  ;
+            
+        }
+       
+        
+        div{
+            border:2px solid black;
+            margin:4px;
+            width:500px;
+            margin:12px auto;
+            border-radius: 10px;
+        
+        }
+        div:hover{
+            box-shadow: 0px 0px 10px 4px rgb(4, 52, 246);
+            background-color: rgb(255, 255, 255);
+        }
+        div a{
+            text-decoration: none;
+            color:rgb(168, 57, 140);
+        
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment -1</h1>
+    </header>
+    <div>
+    <a href="C:\Users\sleem\Desktop\assignment-main/QUESTION1.html"><h1 class="box">QUESTION-1</h1></a>
+</div>
+<div>
+    <a href="C:\Users\sleem\Desktop\assignment-main/QUESTION2.html"><h1 class=><h1 class="box">QUESTION-2</h1></a>
+</div>
+<div>
+    <a href="C:\Users\sleem\Desktop\assignment-main/QUESTION3.html"><h1 class="box">QUESTION-3</h1></a>
+</div>
+<div>
+    <a href="C:\Users\sleem\Desktop\assignment-main/QUESTION--4.html"><h1 class="box">QUESTION-4</h1></a>
+</div>
+    <div>
+    <a href="C:\Users\sleem\Desktop\assignment-main/QUESTION-5.html"><h1 class="box">QUESTION-5</h1></a>
+    </div>
+    <div>
+    <a href="C:\Users\sleem\Desktop\assignment-main/Time-table.html"><h1 class="box">QUESTION-6</h1></a>
+   </div>
+       <div>
+    <a href="https://iul.ac.in/Admissioninfo/Infrastructure.aspx"><h1 class="box">QUESTION-7</h1></a>
+       </div>
+       <div>
+
+    <a href="C:\Users\sleem\Desktop\assignment-main/FRAMES.HTML"><h1 class="box">QUESTION-8</h1></a>
+   </div>
+   <div>
+    <a href="C:\Users\sleem\Desktop\assignment-main/audio-video.html"><h1 class="box">QUESTION-9</h1></a>
+</div>
+<div>
+    <a href="C:\Users\sleem\Desktop\assignment-main/FRAMES.HTML"><h1 class="box">QUESTION-10</h1></a>
+</div>
+</div>
+</body>
+</html>
